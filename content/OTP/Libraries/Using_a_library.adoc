@@ -43,7 +43,7 @@ Now we can verify OTPs:
 otp_is_valid = client.verify(otp)
 ----
 
-After validating the OTP, you also want to make sure that the YubiKey belongs to the user logging in.
+After validating the OTP, you also want to make sure that the YubiKey belongs to the user logging in therefore.
 This is done by comparing the first 12 characters of the OTP (which is the YubiKey's ID) with the
 YubiKey ID that is associated with the user:
 
